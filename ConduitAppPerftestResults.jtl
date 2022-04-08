@@ -25,3 +25,319 @@ timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success
 
 /",1192,0,1,1,"http://${_P(hostname, 'localhost')}/api/articles/",0,0,0
 1649413550609,1,Add Edit Delete Articles,,"Number of samples in transaction : 6, number of failing samples : 4",Thread Group 1-1,,false,,5273,0,1,1,null,0,2359,0
+1649423321144,527,Get Tags Request,200,OK,Thread Group 1-1,text,true,,355,190,7,7,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/tags,526,0,289
+1649423321163,508,Get Tags Request,200,OK,Thread Group 1-2,text,true,,355,190,7,7,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/tags,508,0,275
+1649423321264,509,Get Tags Request,200,OK,Thread Group 1-3,text,true,,355,190,8,8,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/tags,509,0,253
+1649423321345,465,Get Tags Request,200,OK,Thread Group 1-4,text,true,,355,190,8,8,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/tags,465,0,219
+1649423321444,436,Get Tags Request,200,OK,Thread Group 1-5,text,true,,355,190,9,9,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/tags,436,0,215
+1649423321666,641,Get Tags Request,200,OK,Thread Group 1-7,text,true,,355,190,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/tags,641,0,227
+1649423321617,691,Get Tags Request,200,OK,Thread Group 1-6,text,true,,355,190,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/tags,691,0,238
+1649423321742,567,Get Tags Request,200,OK,Thread Group 1-8,text,true,,355,190,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/tags,567,0,222
+1649423321842,467,Get Tags Request,200,OK,Thread Group 1-9,text,true,,355,190,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/tags,467,0,224
+1649423321699,300,Get Access Token,200,OK,Thread Group 1-1,text,true,,552,349,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/users/login,300,0,0
+1649423321818,411,Get Access Token,200,OK,Thread Group 1-4,text,true,,552,349,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/users/login,411,0,0
+1649423321700,375,Get Access Token,200,OK,Thread Group 1-2,text,true,,552,349,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/users/login,375,0,0
+1649423321881,425,Get Access Token,200,OK,Thread Group 1-5,text,true,,552,349,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/users/login,425,0,0
+1649423321776,381,Get Access Token,200,OK,Thread Group 1-3,text,true,,552,349,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/users/login,381,0,0
+1649423322349,2,Debug Sampler,200,OK,Thread Group 1-4,text,true,,645,0,10,10,null,0,0,0
+1649423322349,2,Debug Sampler,200,OK,Thread Group 1-2,text,true,,645,0,10,10,null,0,0,0
+1649423322349,2,Debug Sampler,200,OK,Thread Group 1-1,text,true,,645,0,10,10,null,0,0,0
+1649423322349,2,Debug Sampler,200,OK,Thread Group 1-3,text,true,,645,0,10,10,null,0,0,0
+1649423322349,2,Debug Sampler,200,OK,Thread Group 1-5,text,true,,645,0,10,10,null,0,0,0
+1649423321942,445,Get Tags Request,200,OK,Thread Group 1-10,text,true,,355,190,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/tags,445,0,221
+1649423322311,298,Get Access Token,200,OK,Thread Group 1-8,text,true,,552,349,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/users/login,298,0,0
+1649423322613,0,Debug Sampler,200,OK,Thread Group 1-8,text,true,,645,0,10,10,null,0,0,0
+1649423322312,369,Get Access Token,200,OK,Thread Group 1-7,text,true,,552,349,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/users/login,369,0,0
+1649423322699,0,Debug Sampler,200,OK,Thread Group 1-7,text,true,,645,0,10,10,null,0,0,0
+1649423322312,443,Get Access Token,200,OK,Thread Group 1-9,text,true,,552,349,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/users/login,443,0,0
+1649423322757,0,Debug Sampler,200,OK,Thread Group 1-9,text,true,,645,0,10,10,null,0,0,0
+1649423322312,520,Get Access Token,200,OK,Thread Group 1-6,text,true,,552,349,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/users/login,520,0,0
+1649423322834,0,Debug Sampler,200,OK,Thread Group 1-6,text,true,,645,0,10,10,null,0,0,0
+1649423322388,518,Get Access Token,200,OK,Thread Group 1-10,text,true,,552,349,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/users/login,518,0,0
+1649423322907,0,Debug Sampler,200,OK,Thread Group 1-10,text,true,,646,0,10,10,null,0,0,0
+1649423322661,365,Add Article Request 4,200,OK,Thread Group 1-4,text,true,,648,584,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles,365,0,0
+1649423322661,362,Add Article Request 5,200,OK,Thread Group 1-5,text,true,,648,584,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles,362,0,0
+1649423322663,365,Add Article Request 2,200,OK,Thread Group 1-2,text,true,,648,584,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles,365,0,0
+1649423322662,366,Add Article Request 3,200,OK,Thread Group 1-3,text,true,,648,584,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles,366,0,0
+1649423322661,365,Add Article Request 1,200,OK,Thread Group 1-1,text,true,,648,584,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles,365,0,0
+1649423322920,244,Add Article Request 8,200,OK,Thread Group 1-8,text,true,,648,584,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles,244,0,0
+1649423323003,243,Add Article Request 7,200,OK,Thread Group 1-7,text,true,,648,584,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles,243,0,0
+1649423323037,354,Edit Article Request,200,OK,Thread Group 1-5,text,true,,630,599,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles/test-xur9xv,354,0,0
+1649423323037,354,Edit Article Request,200,OK,Thread Group 1-1,text,true,,630,599,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles/test-jyv0pl,354,0,0
+1649423323037,362,Edit Article Request,200,OK,Thread Group 1-4,text,true,,630,599,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles/test-d0sf9p,362,0,0
+1649423323037,362,Edit Article Request,200,OK,Thread Group 1-2,text,true,,630,599,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles/test-25dxhq,362,0,0
+1649423323037,382,Edit Article Request,200,OK,Thread Group 1-3,text,true,,630,599,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles/test-li3z3i,382,0,0
+1649423323065,355,Add Article Request 9,200,OK,Thread Group 1-9,text,true,,648,584,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles,355,0,0
+1649423323141,307,Add Article Request 6,200,OK,Thread Group 1-6,text,true,,648,584,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles,307,0,0
+1649423323171,310,Edit Article Request,200,OK,Thread Group 1-8,text,true,,630,599,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles/test-1nz8lf,310,0,0
+1649423323211,275,Add Article Request 10,200,OK,Thread Group 1-10,text,true,,648,584,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles,275,0,0
+1649423323248,261,Edit Article Request,200,OK,Thread Group 1-7,text,true,,630,599,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles/test-4qpgv8,261,0,0
+1649423323392,243,Delete Request,204,No Content,Thread Group 1-5,,true,,202,416,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles/test-xur9xv,0,0,0
+1649423323392,243,Delete Request,204,No Content,Thread Group 1-1,,true,,202,416,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles/test-jyv0pl,0,0,0
+1649423323399,254,Delete Request,204,No Content,Thread Group 1-4,,true,,202,416,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles/test-d0sf9p,0,0,0
+1649423323399,254,Delete Request,204,No Content,Thread Group 1-2,,true,,202,416,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles/test-25dxhq,0,0,0
+1649423323420,264,Delete Request,204,No Content,Thread Group 1-3,,true,,202,416,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles/test-li3z3i,0,0,0
+1649423323425,265,Edit Article Request,200,OK,Thread Group 1-9,text,true,,630,599,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles/test-fzcgvd,265,0,0
+1649423323452,270,Edit Article Request,200,OK,Thread Group 1-6,text,true,,630,599,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles/test-n1tbcq,270,0,0
+1649423323481,264,Delete Request,204,No Content,Thread Group 1-8,,true,,202,416,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles/test-1nz8lf,0,0,0
+1649423323488,261,Edit Article Request,200,OK,Thread Group 1-10,text,true,,630,599,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles/test-kre1j6,261,0,0
+1649423323510,245,Delete Request,204,No Content,Thread Group 1-7,,true,,202,416,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles/test-4qpgv8,0,0,0
+1649423323691,238,Delete Request,204,No Content,Thread Group 1-9,,true,,202,416,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles/test-fzcgvd,0,0,0
+1649423323722,238,Delete Request,204,No Content,Thread Group 1-6,,true,,202,416,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles/test-n1tbcq,0,0,0
+1649423323749,235,Delete Request,204,No Content,Thread Group 1-10,,true,,202,416,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles/test-kre1j6,0,0,0
+1649423323939,259,Add Article Request 5,200,OK,Thread Group 1-5,text,true,,648,584,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles,259,0,0
+1649423323943,293,Add Article Request 1,200,OK,Thread Group 1-1,text,true,,648,584,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles,293,0,0
+1649423323958,292,Add Article Request 4,200,OK,Thread Group 1-4,text,true,,648,584,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles,292,0,0
+1649423323958,294,Add Article Request 2,200,OK,Thread Group 1-2,text,true,,648,584,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles,294,0,0
+1649423323990,339,Add Article Request 3,200,OK,Thread Group 1-3,text,true,,648,584,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles,338,0,0
+1649423324062,283,Add Article Request 7,200,OK,Thread Group 1-7,text,true,,648,584,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles,283,0,0
+1649423324049,296,Add Article Request 8,200,OK,Thread Group 1-8,text,true,,648,584,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles,296,0,0
+1649423324200,244,Edit Article Request,200,OK,Thread Group 1-5,text,true,,630,599,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles/test-ayentb,244,0,0
+1649423324237,263,Edit Article Request,200,OK,Thread Group 1-1,text,true,,630,599,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles/test-pslift,263,0,0
+1649423324232,328,Add Article Request 9,200,OK,Thread Group 1-9,text,true,,648,584,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles,328,0,0
+1649423324252,339,Edit Article Request,200,OK,Thread Group 1-2,text,true,,630,599,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles/test-nb0bu6,339,0,0
+1649423324251,340,Edit Article Request,200,OK,Thread Group 1-4,text,true,,630,599,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles/test-8rgi9n,340,0,0
+1649423324266,328,Add Article Request 6,200,OK,Thread Group 1-6,text,true,,648,584,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles,328,0,0
+1649423324289,332,Add Article Request 10,200,OK,Thread Group 1-10,text,true,,648,584,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles,332,0,0
+1649423324330,333,Edit Article Request,200,OK,Thread Group 1-3,text,true,,630,599,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles/test-9m1vlx,333,0,0
+1649423324347,323,Edit Article Request,200,OK,Thread Group 1-7,text,true,,630,599,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles/test-easuui,323,0,0
+1649423324348,325,Edit Article Request,200,OK,Thread Group 1-8,text,true,,630,599,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles/test-m56cjw,325,0,0
+1649423324446,231,Delete Request,204,No Content,Thread Group 1-5,,true,,202,416,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles/test-ayentb,0,0,0
+1649423324501,234,Delete Request,204,No Content,Thread Group 1-1,,true,,202,416,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles/test-pslift,0,0,0
+1649423324562,277,Edit Article Request,200,OK,Thread Group 1-9,text,true,,630,599,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles/test-42m3or,277,0,0
+1649423324591,286,Delete Request,204,No Content,Thread Group 1-4,,true,,202,416,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles/test-8rgi9n,0,0,0
+1649423324591,286,Delete Request,204,No Content,Thread Group 1-2,,true,,202,416,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles/test-nb0bu6,0,0,0
+1649423324595,289,Edit Article Request,200,OK,Thread Group 1-6,text,true,,630,599,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles/test-wksb7w,289,0,0
+1649423324622,285,Edit Article Request,200,OK,Thread Group 1-10,text,true,,630,599,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles/test-2rw0sk,285,0,0
+1649423324671,256,Delete Request,204,No Content,Thread Group 1-7,,true,,202,416,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles/test-easuui,0,0,0
+1649423324664,269,Delete Request,204,No Content,Thread Group 1-3,,true,,202,416,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles/test-9m1vlx,0,0,0
+1649423324673,260,Delete Request,204,No Content,Thread Group 1-8,,true,,202,416,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles/test-m56cjw,0,0,0
+1649423324840,242,Delete Request,204,No Content,Thread Group 1-9,,true,,202,416,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles/test-42m3or,0,0,0
+1649423324885,238,Delete Request,204,No Content,Thread Group 1-6,,true,,202,416,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles/test-wksb7w,0,0,0
+1649423324908,234,Delete Request,204,No Content,Thread Group 1-10,,true,,202,416,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles/test-2rw0sk,0,0,0
+1649423324982,261,Add Article Request 5,200,OK,Thread Group 1-5,text,true,,648,584,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles,261,0,0
+1649423325039,293,Add Article Request 1,200,OK,Thread Group 1-1,text,true,,648,584,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles,293,0,0
+1649423325179,261,Add Article Request 2,200,OK,Thread Group 1-2,text,true,,648,584,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles,261,0,0
+1649423325183,265,Add Article Request 4,200,OK,Thread Group 1-4,text,true,,648,584,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles,265,0,0
+1649423325234,290,Add Article Request 7,200,OK,Thread Group 1-7,text,true,,648,584,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles,290,0,0
+1649423325238,290,Add Article Request 8,200,OK,Thread Group 1-8,text,true,,648,584,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles,290,0,0
+1649423325238,319,Add Article Request 3,200,OK,Thread Group 1-3,text,true,,648,584,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles,319,0,0
+1649423325246,321,Edit Article Request,200,OK,Thread Group 1-5,text,true,,630,599,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles/test-ai0gwg,321,0,0
+1649423325334,252,Edit Article Request,200,OK,Thread Group 1-1,text,true,,630,599,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles/test-53yyta,252,0,0
+1649423325387,246,Add Article Request 9,200,OK,Thread Group 1-9,text,true,,648,584,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles,246,0,0
+1649423325431,278,Add Article Request 6,200,OK,Thread Group 1-6,text,true,,648,584,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles,278,0,0
+1649423325446,316,Add Article Request 10,200,OK,Thread Group 1-10,text,true,,648,584,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles,316,0,0
+1649423325450,322,Edit Article Request,200,OK,Thread Group 1-4,text,true,,630,599,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles/test-sfi6v5,322,0,0
+1649423325442,330,Edit Article Request,200,OK,Thread Group 1-2,text,true,,630,599,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles/test-1jftpr,330,0,0
+1649423325527,285,Edit Article Request,200,OK,Thread Group 1-7,text,true,,630,599,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles/test-kke5pv,285,0,0
+1649423325528,291,Edit Article Request,200,OK,Thread Group 1-8,text,true,,630,599,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles/test-qd70fx,291,0,0
+1649423325586,258,Delete Request,204,No Content,Thread Group 1-1,,true,,202,416,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles/test-53yyta,0,0,0
+1649423325567,277,Delete Request,204,No Content,Thread Group 1-5,,true,,202,416,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles/test-ai0gwg,0,0,0
+1649423325558,298,Edit Article Request,200,OK,Thread Group 1-3,text,true,,630,599,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles/test-o4uqxi,298,0,0
+1649423325635,248,Edit Article Request,200,OK,Thread Group 1-9,text,true,,630,599,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles/test-n3tbtt,248,0,0
+1649423325711,247,Edit Article Request,200,OK,Thread Group 1-6,text,true,,630,599,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles/test-xh4abz,247,0,0
+1649423325764,254,Edit Article Request,200,OK,Thread Group 1-10,text,true,,630,599,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles/test-8cwk4n,254,0,0
+1649423325773,256,Delete Request,204,No Content,Thread Group 1-2,,true,,202,416,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles/test-1jftpr,0,0,0
+1649423325772,257,Delete Request,204,No Content,Thread Group 1-4,,true,,202,416,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles/test-sfi6v5,0,0,0
+1649423325812,231,Delete Request,204,No Content,Thread Group 1-7,,true,,202,416,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles/test-kke5pv,0,0,0
+1649423325819,231,Delete Request,204,No Content,Thread Group 1-8,,true,,202,416,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles/test-qd70fx,0,0,0
+1649423325856,234,Delete Request,204,No Content,Thread Group 1-3,,true,,202,416,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles/test-o4uqxi,0,0,0
+1649423325884,238,Delete Request,204,No Content,Thread Group 1-9,,true,,202,416,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles/test-n3tbtt,0,0,0
+1649423325959,236,Delete Request,204,No Content,Thread Group 1-6,,true,,202,416,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles/test-xh4abz,0,0,0
+1649423326018,235,Delete Request,204,No Content,Thread Group 1-10,,true,,202,416,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles/test-8cwk4n,0,0,0
+1649423326151,258,Add Article Request 1,200,OK,Thread Group 1-1,text,true,,648,584,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles,258,0,0
+1649423326151,258,Add Article Request 5,200,OK,Thread Group 1-5,text,true,,648,584,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles,258,0,0
+1649423326336,295,Add Article Request 2,200,OK,Thread Group 1-2,text,true,,648,584,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles,295,0,0
+1649423326335,300,Add Article Request 4,200,OK,Thread Group 1-4,text,true,,648,584,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles,300,0,0
+1649423326351,322,Add Article Request 7,200,OK,Thread Group 1-7,text,true,,648,584,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles,322,0,0
+1649423326357,361,Add Article Request 8,200,OK,Thread Group 1-8,text,true,,648,584,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles,361,0,0
+1649423326395,399,Add Article Request 3,200,OK,Thread Group 1-3,text,true,,648,584,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles,399,0,0
+1649423326424,404,Add Article Request 9,200,OK,Thread Group 1-9,text,true,,648,584,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles,404,0,0
+1649423326414,418,Edit Article Request,200,OK,Thread Group 1-5,text,true,,630,599,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles/test-28f8xe,418,0,0
+1649423326414,418,Edit Article Request,200,OK,Thread Group 1-1,text,true,,630,599,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles/test-50pbr9,418,0,0
+1649423326506,338,Add Article Request 6,200,OK,Thread Group 1-6,text,true,,648,584,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles,338,0,0
+1649423326565,279,Add Article Request 10,200,OK,Thread Group 1-10,text,true,,648,584,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles,279,0,0
+1649423326633,260,Edit Article Request,200,OK,Thread Group 1-2,text,true,,630,599,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles/test-hqj9p1,260,0,0
+1649423326636,257,Edit Article Request,200,OK,Thread Group 1-4,text,true,,630,599,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles/test-z8royp,257,0,0
+1649423326676,248,Edit Article Request,200,OK,Thread Group 1-7,text,true,,630,599,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles/test-n2tw9v,248,0,0
+1649423326721,242,Edit Article Request,200,OK,Thread Group 1-8,text,true,,630,599,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles/test-6p5zwt,242,0,0
+1649423326795,246,Edit Article Request,200,OK,Thread Group 1-3,text,true,,630,599,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles/test-eb2hvl,246,0,0
+1649423326832,238,Delete Request,204,No Content,Thread Group 1-1,,true,,202,416,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles/test-50pbr9,0,0,0
+1649423326832,238,Delete Request,204,No Content,Thread Group 1-5,,true,,202,416,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles/test-28f8xe,0,0,0
+1649423326830,318,Edit Article Request,200,OK,Thread Group 1-9,text,true,,630,599,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles/test-cyx1q3,318,0,0
+1649423326846,302,Edit Article Request,200,OK,Thread Group 1-6,text,true,,630,599,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles/test-h3xf64,302,0,0
+1649423326846,306,Edit Article Request,200,OK,Thread Group 1-10,text,true,,630,599,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles/test-cdzx0x,306,0,0
+1649423326894,272,Delete Request,204,No Content,Thread Group 1-4,,true,,202,416,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles/test-z8royp,0,0,0
+1649423326894,272,Delete Request,204,No Content,Thread Group 1-2,,true,,202,416,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles/test-hqj9p1,0,0,0
+1649423326924,248,Delete Request,204,No Content,Thread Group 1-7,,true,,202,416,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles/test-n2tw9v,0,0,0
+1649423326964,235,Delete Request,204,No Content,Thread Group 1-8,,true,,202,416,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles/test-6p5zwt,0,0,0
+1649423327042,235,Delete Request,204,No Content,Thread Group 1-3,,true,,202,416,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles/test-eb2hvl,0,0,0
+1649423327149,250,Delete Request,204,No Content,Thread Group 1-9,,true,,202,416,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles/test-cyx1q3,0,0,0
+1649423327149,252,Delete Request,204,No Content,Thread Group 1-6,,true,,202,416,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles/test-h3xf64,0,0,0
+1649423327153,248,Delete Request,204,No Content,Thread Group 1-10,,true,,202,416,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles/test-cdzx0x,0,0,0
+1649423327375,262,Add Article Request 5,200,OK,Thread Group 1-5,text,true,,648,584,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles,262,0,0
+1649423327375,262,Add Article Request 1,200,OK,Thread Group 1-1,text,true,,648,584,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles,262,0,0
+1649423327473,305,Add Article Request 2,200,OK,Thread Group 1-2,text,true,,648,584,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles,305,0,0
+1649423327473,305,Add Article Request 4,200,OK,Thread Group 1-4,text,true,,648,584,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles,305,0,0
+1649423327477,315,Add Article Request 7,200,OK,Thread Group 1-7,text,true,,648,584,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles,315,0,0
+1649423327502,303,Add Article Request 8,200,OK,Thread Group 1-8,text,true,,648,584,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles,303,0,0
+1649423327584,258,Add Article Request 3,200,OK,Thread Group 1-3,text,true,,648,584,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles,258,0,0
+1649423327639,261,Edit Article Request,200,OK,Thread Group 1-1,text,true,,630,599,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles/test-ielrr2,260,0,0
+1649423327639,260,Edit Article Request,200,OK,Thread Group 1-5,text,true,,630,599,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles/test-vgmf6o,260,0,0
+1649423327709,280,Add Article Request 10,200,OK,Thread Group 1-10,text,true,,648,584,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles,280,0,0
+1649423327709,287,Add Article Request 9,200,OK,Thread Group 1-9,text,true,,648,584,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles,287,0,0
+1649423327710,289,Add Article Request 6,200,OK,Thread Group 1-6,text,true,,648,584,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles,289,0,0
+1649423327784,271,Edit Article Request,200,OK,Thread Group 1-4,text,true,,630,599,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles/test-ze9ork,271,0,0
+1649423327784,273,Edit Article Request,200,OK,Thread Group 1-2,text,true,,630,599,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles/test-efmvzo,273,0,0
+1649423327796,299,Edit Article Request,200,OK,Thread Group 1-7,text,true,,630,599,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles/test-o5h96o,299,0,0
+1649423327807,293,Edit Article Request,200,OK,Thread Group 1-8,text,true,,630,599,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles/test-ul5h01,293,0,0
+1649423327844,272,Edit Article Request,200,OK,Thread Group 1-3,text,true,,630,599,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles/test-ujjn65,272,0,0
+1649423327900,232,Delete Request,204,No Content,Thread Group 1-1,,true,,202,416,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles/test-ielrr2,0,0,0
+1649423327900,232,Delete Request,204,No Content,Thread Group 1-5,,true,,202,416,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles/test-vgmf6o,0,0,0
+1649423327990,259,Edit Article Request,200,OK,Thread Group 1-10,text,true,,630,599,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles/test-l3heh5,259,0,0
+1649423327997,300,Edit Article Request,200,OK,Thread Group 1-9,text,true,,630,599,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles/test-jowwe4,300,0,0
+1649423327999,299,Edit Article Request,200,OK,Thread Group 1-6,text,true,,630,599,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles/test-o4r4f4,299,0,0
+1649423328055,254,Delete Request,204,No Content,Thread Group 1-4,,true,,202,416,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles/test-ze9ork,0,0,0
+1649423328057,257,Delete Request,204,No Content,Thread Group 1-2,,true,,202,416,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles/test-efmvzo,0,0,0
+1649423328095,232,Delete Request,204,No Content,Thread Group 1-7,,true,,202,416,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles/test-o5h96o,0,0,0
+1649423328100,236,Delete Request,204,No Content,Thread Group 1-8,,true,,202,416,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles/test-ul5h01,0,0,0
+1649423328117,234,Delete Request,204,No Content,Thread Group 1-3,,true,,202,416,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles/test-ujjn65,0,0,0
+1649423328249,231,Delete Request,204,No Content,Thread Group 1-10,,true,,202,416,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles/test-l3heh5,0,0,0
+1649423328297,238,Delete Request,204,No Content,Thread Group 1-9,,true,,202,416,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles/test-jowwe4,0,0,0
+1649423328298,247,Delete Request,204,No Content,Thread Group 1-6,,true,,202,416,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles/test-o4r4f4,0,0,0
+1649423328435,263,Add Article Request 1,200,OK,Thread Group 1-1,text,true,,648,584,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles,263,0,0
+1649423328437,271,Add Article Request 5,200,OK,Thread Group 1-5,text,true,,648,584,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles,271,0,0
+1649423328612,277,Add Article Request 4,200,OK,Thread Group 1-4,text,true,,648,584,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles,277,0,0
+1649423328618,320,Add Article Request 2,200,OK,Thread Group 1-2,text,true,,648,584,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles,320,0,0
+1649423328631,308,Add Article Request 7,200,OK,Thread Group 1-7,text,true,,648,584,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles,308,0,0
+1649423328656,301,Add Article Request 3,200,OK,Thread Group 1-3,text,true,,648,584,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles,301,0,0
+1649423328640,324,Add Article Request 8,200,OK,Thread Group 1-8,text,true,,648,584,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles,324,0,0
+1649423328700,329,Edit Article Request,200,OK,Thread Group 1-1,text,true,,630,599,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles/test-ndydt7,329,0,0
+1649423328711,318,Edit Article Request,200,OK,Thread Group 1-5,text,true,,630,599,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles/test-y93mxr,318,0,0
+1649423328782,250,Add Article Request 10,200,OK,Thread Group 1-10,text,true,,648,584,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles,250,0,0
+1649423328841,262,Add Article Request 9,200,OK,Thread Group 1-9,text,true,,648,584,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles,262,0,0
+1649423328847,273,Add Article Request 6,200,OK,Thread Group 1-6,text,true,,648,584,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles,273,0,0
+1649423328891,253,Edit Article Request,200,OK,Thread Group 1-4,text,true,,630,599,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles/test-1yihcc,253,0,0
+1649423328939,266,Edit Article Request,200,OK,Thread Group 1-7,text,true,,630,599,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles/test-l7y5s3,266,0,0
+1649423328939,270,Edit Article Request,200,OK,Thread Group 1-2,text,true,,630,599,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles/test-vum59f,270,0,0
+1649423328959,285,Edit Article Request,200,OK,Thread Group 1-3,text,true,,630,599,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles/test-nem6dm,285,0,0
+1649423328965,280,Edit Article Request,200,OK,Thread Group 1-8,text,true,,630,599,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles/test-p6ha6l,280,0,0
+1649423329033,239,Delete Request,204,No Content,Thread Group 1-5,,true,,202,416,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles/test-y93mxr,0,0,0
+1649423329033,245,Delete Request,204,No Content,Thread Group 1-1,,true,,202,416,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles/test-ndydt7,0,0,0
+1649423329036,258,Edit Article Request,200,OK,Thread Group 1-10,text,true,,630,599,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles/test-53jkbu,258,0,0
+1649423329106,249,Edit Article Request,200,OK,Thread Group 1-9,text,true,,630,599,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles/test-v4s7yf,249,0,0
+1649423329124,256,Edit Article Request,200,OK,Thread Group 1-6,text,true,,630,599,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles/test-t2xlz5,256,0,0
+1649423329145,242,Delete Request,204,No Content,Thread Group 1-4,,true,,202,416,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles/test-1yihcc,0,0,0
+1649423329206,228,Delete Request,204,No Content,Thread Group 1-7,,true,,202,416,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles/test-l7y5s3,0,0,0
+1649423329210,236,Delete Request,204,No Content,Thread Group 1-2,,true,,202,416,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles/test-vum59f,0,0,0
+1649423329245,233,Delete Request,204,No Content,Thread Group 1-8,,true,,202,416,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles/test-p6ha6l,0,0,0
+1649423329244,242,Delete Request,204,No Content,Thread Group 1-3,,true,,202,416,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles/test-nem6dm,0,0,0
+1649423329295,231,Delete Request,204,No Content,Thread Group 1-10,,true,,202,416,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles/test-53jkbu,0,0,0
+1649423329356,237,Delete Request,204,No Content,Thread Group 1-9,,true,,202,416,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles/test-v4s7yf,0,0,0
+1649423329381,240,Delete Request,204,No Content,Thread Group 1-6,,true,,202,416,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles/test-t2xlz5,0,0,0
+1649423329578,271,Add Article Request 5,200,OK,Thread Group 1-5,text,true,,648,584,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles,271,0,0
+1649423329585,265,Add Article Request 1,200,OK,Thread Group 1-1,text,true,,648,584,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles,265,0,0
+1649423329697,240,Add Article Request 4,200,OK,Thread Group 1-4,text,true,,648,584,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles,240,0,0
+1649423329741,256,Add Article Request 7,200,OK,Thread Group 1-7,text,true,,649,584,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles,256,0,0
+1649423329751,262,Add Article Request 2,200,OK,Thread Group 1-2,text,true,,648,584,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles,262,0,0
+1649423329784,270,Add Article Request 8,200,OK,Thread Group 1-8,text,true,,648,584,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles,270,0,0
+1649423329792,264,Add Article Request 3,200,OK,Thread Group 1-3,text,true,,648,584,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles,264,0,0
+1649423329832,264,Add Article Request 10,200,OK,Thread Group 1-10,text,true,,648,584,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles,264,0,0
+1649423329850,301,Edit Article Request,200,OK,Thread Group 1-5,text,true,,630,599,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles/test-kfwt06,301,0,0
+1649423329851,300,Edit Article Request,200,OK,Thread Group 1-1,text,true,,630,599,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles/test-2zredj,300,0,0
+1649423329897,268,Add Article Request 9,200,OK,Thread Group 1-9,text,true,,648,584,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles,268,0,0
+1649423329938,264,Edit Article Request,200,OK,Thread Group 1-4,text,true,,630,599,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles/test-pbphb1,264,0,0
+1649423329927,283,Add Article Request 6,200,OK,Thread Group 1-6,text,true,,648,584,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles,283,0,0
+1649423329999,241,Edit Article Request,200,OK,Thread Group 1-7,text,true,,631,600,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles/test--z2ya6v,241,0,0
+1649423330014,249,Edit Article Request,200,OK,Thread Group 1-2,text,true,,630,599,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles/test-uxa9fl,249,0,0
+1649423330055,241,Edit Article Request,200,OK,Thread Group 1-8,text,true,,630,599,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles/test-ivz4nz,241,0,0
+1649423330057,258,Edit Article Request,200,OK,Thread Group 1-3,text,true,,630,599,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles/test-e9afc1,258,0,0
+1649423330097,243,Edit Article Request,200,OK,Thread Group 1-10,text,true,,630,599,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles/test-mz10jh,243,0,0
+1649423330152,238,Delete Request,204,No Content,Thread Group 1-1,,true,,202,416,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles/test-2zredj,0,0,0
+1649423330152,238,Delete Request,204,No Content,Thread Group 1-5,,true,,202,416,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles/test-kfwt06,0,0,0
+1649423330169,247,Edit Article Request,200,OK,Thread Group 1-9,text,true,,630,599,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles/test-v0onid,247,0,0
+1649423330203,229,Delete Request,204,No Content,Thread Group 1-4,,true,,202,416,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles/test-pbphb1,0,0,0
+1649423330213,259,Edit Article Request,200,OK,Thread Group 1-6,text,true,,630,599,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles/test-fclgcy,259,0,0
+1649423330241,237,Delete Request,204,No Content,Thread Group 1-7,,true,,202,417,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles/test--z2ya6v,0,0,0
+1649423330263,236,Delete Request,204,No Content,Thread Group 1-2,,true,,202,416,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles/test-uxa9fl,0,0,0
+1649423330297,228,Delete Request,204,No Content,Thread Group 1-8,,true,,202,416,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles/test-ivz4nz,0,0,0
+1649423330315,235,Delete Request,204,No Content,Thread Group 1-3,,true,,202,416,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles/test-e9afc1,0,0,0
+1649423330340,234,Delete Request,204,No Content,Thread Group 1-10,,true,,202,416,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles/test-mz10jh,0,0,0
+1649423330417,246,Delete Request,204,No Content,Thread Group 1-9,,true,,202,416,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles/test-v0onid,0,0,0
+1649423330472,240,Delete Request,204,No Content,Thread Group 1-6,,true,,202,416,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles/test-fclgcy,0,0,0
+1649423330695,273,Add Article Request 1,200,OK,Thread Group 1-1,text,true,,648,584,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles,273,0,0
+1649423330695,274,Add Article Request 5,200,OK,Thread Group 1-5,text,true,,648,584,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles,274,0,0
+1649423330739,258,Add Article Request 4,200,OK,Thread Group 1-4,text,true,,648,584,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles,258,0,0
+1649423330781,252,Add Article Request 7,200,OK,Thread Group 1-7,text,true,,648,584,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles,252,0,0
+1649423330805,271,Add Article Request 2,200,OK,Thread Group 1-2,text,true,,648,584,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles,271,0,0
+1649423330831,258,Add Article Request 8,200,OK,Thread Group 1-8,text,true,,648,584,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles,258,0,0
+1649423330854,268,Add Article Request 3,200,OK,Thread Group 1-3,text,true,,648,584,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles,268,0,0
+1649423330881,253,Add Article Request 10,200,OK,Thread Group 1-10,text,true,,648,584,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles,253,0,0
+1649423330970,291,Add Article Request 9,200,OK,Thread Group 1-9,text,true,,648,584,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles,291,0,0
+1649423330975,314,Edit Article Request,200,OK,Thread Group 1-1,text,true,,630,599,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles/test-8148wh,314,0,0
+1649423330975,312,Edit Article Request,200,OK,Thread Group 1-5,text,true,,630,599,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles/test-4i452y,312,0,0
+1649423331036,303,Edit Article Request,200,OK,Thread Group 1-7,text,true,,630,599,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles/test-jkwz7m,303,0,0
+1649423330998,341,Edit Article Request,200,OK,Thread Group 1-4,text,true,,630,599,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles/test-ne04qa,341,0,0
+1649423331020,319,Add Article Request 6,200,OK,Thread Group 1-6,text,true,,648,584,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles,319,0,0
+1649423331079,353,Edit Article Request,200,OK,Thread Group 1-2,text,true,,630,599,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles/test-m1etow,353,0,0
+1649423331093,339,Edit Article Request,200,OK,Thread Group 1-8,text,true,,630,599,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles/test-9aabaw,339,0,0
+1649423331125,355,Edit Article Request,200,OK,Thread Group 1-3,text,true,,630,599,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles/test-gohdo9,355,0,0
+1649423331138,346,Edit Article Request,200,OK,Thread Group 1-10,text,true,,630,599,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles/test-xw1vql,346,0,0
+1649423331264,248,Edit Article Request,200,OK,Thread Group 1-9,text,true,,630,599,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles/test-llcwb7,248,0,0
+1649423331307,241,Delete Request,204,No Content,Thread Group 1-5,,true,,202,416,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles/test-4i452y,0,0,0
+1649423331307,241,Delete Request,204,No Content,Thread Group 1-1,,true,,202,416,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles/test-8148wh,0,0,0
+1649423331341,250,Delete Request,204,No Content,Thread Group 1-7,,true,,202,416,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles/test-jkwz7m,0,0,0
+1649423331340,252,Delete Request,204,No Content,Thread Group 1-4,,true,,202,416,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles/test-ne04qa,0,0,0
+1649423331341,279,Edit Article Request,200,OK,Thread Group 1-6,text,true,,630,599,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles/test-33g8t7,279,0,0
+1649423331433,240,Delete Request,204,No Content,Thread Group 1-8,,true,,202,416,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles/test-9aabaw,0,0,0
+1649423331433,240,Delete Request,204,No Content,Thread Group 1-2,,true,,202,416,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles/test-m1etow,0,0,0
+1649423331485,243,Delete Request,204,No Content,Thread Group 1-10,,true,,202,416,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles/test-xw1vql,0,0,0
+1649423331484,244,Delete Request,204,No Content,Thread Group 1-3,,true,,202,416,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles/test-gohdo9,0,0,0
+1649423331513,234,Delete Request,204,No Content,Thread Group 1-9,,true,,202,416,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles/test-llcwb7,0,0,0
+1649423331621,236,Delete Request,204,No Content,Thread Group 1-6,,true,,202,416,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles/test-33g8t7,0,0,0
+1649423331855,262,Add Article Request 1,200,OK,Thread Group 1-1,text,true,,648,584,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles,260,0,0
+1649423331855,262,Add Article Request 5,200,OK,Thread Group 1-5,text,true,,648,584,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles,260,0,0
+1649423331896,272,Add Article Request 7,200,OK,Thread Group 1-7,text,true,,648,584,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles,271,0,0
+1649423331898,272,Add Article Request 4,200,OK,Thread Group 1-4,text,true,,648,584,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles,272,0,0
+1649423331975,258,Add Article Request 8,200,OK,Thread Group 1-8,text,true,,648,584,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles,258,0,0
+1649423331978,263,Add Article Request 2,200,OK,Thread Group 1-2,text,true,,648,584,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles,263,0,0
+1649423332035,260,Add Article Request 10,200,OK,Thread Group 1-10,text,true,,648,584,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles,260,0,0
+1649423332035,284,Add Article Request 3,200,OK,Thread Group 1-3,text,true,,648,584,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles,284,0,0
+1649423332050,276,Add Article Request 9,200,OK,Thread Group 1-9,text,true,,648,584,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles,276,0,0
+1649423332121,259,Edit Article Request,200,OK,Thread Group 1-5,text,true,,630,599,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles/test-s2c9as,259,0,0
+1649423332121,259,Edit Article Request,200,OK,Thread Group 1-1,text,true,,630,599,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles/test-i9sy6z,259,0,0
+1649423332163,289,Add Article Request 6,200,OK,Thread Group 1-6,text,true,,648,584,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles,288,0,0
+1649423332172,296,Edit Article Request,200,OK,Thread Group 1-4,text,true,,630,599,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles/test-3n2ou4,294,0,0
+1649423332170,298,Edit Article Request,200,OK,Thread Group 1-7,text,true,,630,599,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles/test-o8up21,295,0,0
+1649423332235,248,Edit Article Request,200,OK,Thread Group 1-8,text,true,,630,599,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles/test-za5toy,248,0,0
+1649423332242,263,Edit Article Request,200,OK,Thread Group 1-2,text,true,,630,599,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles/test-vz1fb2,263,0,0
+1649423332296,243,Edit Article Request,200,OK,Thread Group 1-10,text,true,,630,599,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles/test-o0ol9s,243,0,0
+1649423332320,257,Edit Article Request,200,OK,Thread Group 1-3,text,true,,630,599,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles/test-djorhz,257,0,0
+1649423332327,274,Edit Article Request,200,OK,Thread Group 1-9,text,true,,630,599,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles/test-2w5qtr,274,0,0
+1649423332380,235,Delete Request,204,No Content,Thread Group 1-5,,true,,202,416,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles/test-s2c9as,0,0,0
+1649423332380,238,Delete Request,204,No Content,Thread Group 1-1,,true,,202,416,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles/test-i9sy6z,0,0,0
+1649423332470,261,Delete Request,204,No Content,Thread Group 1-7,,true,,202,416,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles/test-o8up21,0,0,0
+1649423332469,262,Delete Request,204,No Content,Thread Group 1-4,,true,,202,416,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles/test-3n2ou4,0,0,0
+1649423332467,272,Edit Article Request,200,OK,Thread Group 1-6,text,true,,630,599,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles/test-m6xde9,272,0,0
+1649423332484,269,Delete Request,204,No Content,Thread Group 1-8,,true,,202,416,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles/test-za5toy,0,0,0
+1649423332506,247,Delete Request,204,No Content,Thread Group 1-2,,true,,202,416,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles/test-vz1fb2,0,0,0
+1649423332540,236,Delete Request,204,No Content,Thread Group 1-10,,true,,202,416,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles/test-o0ol9s,0,0,0
+1649423332578,234,Delete Request,204,No Content,Thread Group 1-3,,true,,202,416,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles/test-djorhz,0,0,0
+1649423332601,235,Delete Request,204,No Content,Thread Group 1-9,,true,,202,416,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles/test-2w5qtr,0,0,0
+1649423332740,236,Delete Request,204,No Content,Thread Group 1-6,,true,,202,416,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles/test-m6xde9,0,0,0
+1649423332921,265,Add Article Request 5,200,OK,Thread Group 1-5,text,true,,648,584,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles,265,0,0
+1649423332923,263,Add Article Request 1,200,OK,Thread Group 1-1,text,true,,647,584,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles,263,0,0
+1649423333038,298,Add Article Request 7,200,OK,Thread Group 1-7,text,true,,648,584,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles,298,0,0
+1649423333038,302,Add Article Request 4,200,OK,Thread Group 1-4,text,true,,648,584,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles,302,0,0
+1649423333057,318,Add Article Request 8,200,OK,Thread Group 1-8,text,true,,648,584,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles,318,0,0
+1649423333059,316,Add Article Request 2,200,OK,Thread Group 1-2,text,true,,648,584,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles,316,0,0
+1649423333189,225,Edit Article Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,Thread Group 1-1,text,false,Expected to find an object with property ['article'] in path $ but found 'java.lang.String'. This is not a json object according to the JsonProvider: 'com.jayway.jsonpath.spi.json.JsonSmartJsonProvider'.,2667,0,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles/test-nf131,0,0,0
+1649423333189,222,Edit Article Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,Thread Group 1-5,text,false,Expected to find an object with property ['article'] in path $ but found 'java.lang.String'. This is not a json object according to the JsonProvider: 'com.jayway.jsonpath.spi.json.JsonSmartJsonProvider'.,2667,0,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles/test-uxsqxr,0,0,0
+1649423333345,67,Edit Article Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,Thread Group 1-4,text,false,Expected to find an object with property ['article'] in path $ but found 'java.lang.String'. This is not a json object according to the JsonProvider: 'com.jayway.jsonpath.spi.json.JsonSmartJsonProvider'.,2667,0,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles/test-idz8g5,0,0,0
+1649423333339,72,Edit Article Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,Thread Group 1-7,text,false,Expected to find an object with property ['article'] in path $ but found 'java.lang.String'. This is not a json object according to the JsonProvider: 'com.jayway.jsonpath.spi.json.JsonSmartJsonProvider'.,2667,0,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles/test-l1wap7,0,0,0
+1649423333378,36,Edit Article Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,Thread Group 1-8,text,false,Expected to find an object with property ['article'] in path $ but found 'java.lang.String'. This is not a json object according to the JsonProvider: 'com.jayway.jsonpath.spi.json.JsonSmartJsonProvider'.,2667,0,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles/test-e13x0t,0,0,0
+1649423333378,34,Edit Article Request,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,Thread Group 1-2,text,false,Expected to find an object with property ['article'] in path $ but found 'java.lang.String'. This is not a json object according to the JsonProvider: 'com.jayway.jsonpath.spi.json.JsonSmartJsonProvider'.,2667,0,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles/test-9l36cr,0,0,0
+1649423333139,274,Add Article Request 9,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,Thread Group 1-9,text,false,Expected to find an object with property ['article'] in path $ but found 'java.lang.String'. This is not a json object according to the JsonProvider: 'com.jayway.jsonpath.spi.json.JsonSmartJsonProvider'.,2667,0,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles,0,0,0
+1649423333282,129,Add Article Request 6,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,Thread Group 1-6,text,false,Expected to find an object with property ['article'] in path $ but found 'java.lang.String'. This is not a json object according to the JsonProvider: 'com.jayway.jsonpath.spi.json.JsonSmartJsonProvider'.,2667,0,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles,0,0,0
+1649423333117,294,Add Article Request 3,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,Thread Group 1-3,text,false,Expected to find an object with property ['article'] in path $ but found 'java.lang.String'. This is not a json object according to the JsonProvider: 'com.jayway.jsonpath.spi.json.JsonSmartJsonProvider'.,2667,0,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles,0,0,0
+1649423333081,333,Add Article Request 10,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,Thread Group 1-10,text,false,Expected to find an object with property ['article'] in path $ but found 'java.lang.String'. This is not a json object according to the JsonProvider: 'com.jayway.jsonpath.spi.json.JsonSmartJsonProvider'.,2667,0,10,10,http://ec2-107-23-3-18.compute-1.amazonaws.com:3000/api/articles,0,0,0
