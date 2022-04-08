@@ -1,3 +1,5 @@
 
 
-/Users/saurabhdhingra/Downloads/apache-jmeter-5.4.3/bin/jmeter.sh -n -q /Users/saurabhdhingra/workspace-jmeter/performance-testing-070322/config.qa.properties -t /Users/saurabhdhingra/workspace-jmeter/performance-testing-070322/ConduitAppPerftest.jmx -l /Users/saurabhdhingra/workspace-jmeter/performance-testing-070322/ConduitAppPerftestResults.jtl 
+/Users/saurabhdhingra/Downloads/apache-jmeter-5.4.3/bin/jmeter.sh -n -q /Users/saurabhdhingra/workspace-jmeter/performance-testing-070322/config.qa.properties -t /Users/saurabhdhingra/workspace-jmeter/performance-testing-070322/ConduitAppPerftest.jmx -l /Users/saurabhdhingra/workspace-jmeter/performance-testing-070322/ConduitAppPerftestResults.jtl -e -o /Users/saurabhdhingra/workspace-jmeter/performance-testing-070322/reports
+
+"C:/Users/NobleProg/Desktop/apache-jmeter-5.4.3/bin/jmeter.bat" -n -q %WORKSPACE%/config.qa.properties -t %WORKSPACE%/ConduitAppPerftest.jmx -l %WORKSPACE%/ConduitAppPerftestResults-%BUILD_TAG%.jtl -e -o %WORKSPACE%/reports-%BUILD_TAG%/
