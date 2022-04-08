@@ -1,0 +1,16 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1649413550533,0,Get Tags Request,Non HTTP response code: java.net.URISyntaxException,"Non HTTP response message: Illegal character in authority at index 7: http://${_P(hostname, 'localhost')}/api/tags",Thread Group 1-1,text,false,Expected status code is 200 (which means success) and you recevied something else,1187,0,1,2,"http://${_P(hostname, 'localhost')}/api/tags",0,0,0
+1649413550263,2285,JSR223 Sampler,200,OK,Groovy Scripting 2-1,text,true,,0,0,1,2,null,0,0,0
+1649413550645,0,Get Access Token,Non HTTP response code: java.net.URISyntaxException,"Non HTTP response message: Illegal character in authority at index 7: http://${_P(hostname, 'localhost')}/api/users/login",Thread Group 1-1,text,false,Invalid Response code Non HTTP response code: java.net.URISyntaxException,1194,0,1,2,"http://${_P(hostname, 'localhost')}/api/users/login",0,0,0
+1649413552617,1,Debug Sampler,200,OK,Thread Group 1-1,text,true,,504,0,1,2,null,0,0,0
+1649413552607,11,Debug Sampler,200,OK,Groovy Scripting 2-1,text,true,,3404,0,1,2,null,0,0,0
+1649413552944,0,Add Article Request 1,Non HTTP response code: java.net.URISyntaxException,"Non HTTP response message: Illegal character in authority at index 7: http://${_P(hostname, 'localhost')}/api/articles",Thread Group 1-1,text,false,Expected to find an object with property ['article'] in path $ but found 'java.lang.String'. This is not a json object according to the JsonProvider: 'com.jayway.jsonpath.spi.json.JsonSmartJsonProvider'.,1191,0,1,1,"http://${_P(hostname, 'localhost')}/api/articles",0,0,0
+1649413552961,0,Edit Article Request,Non HTTP response code: java.net.URISyntaxException,"Non HTTP response message: Illegal character in authority at index 7: http://${_P(hostname, 'localhost')}/api/articles/",Thread Group 1-1,text,false,Expected to find an object with property ['article'] in path $ but found 'java.lang.String'. This is not a json object according to the JsonProvider: 'com.jayway.jsonpath.spi.json.JsonSmartJsonProvider'.,1192,0,1,1,"http://${_P(hostname, 'localhost')}/api/articles/",0,0,0
+1649413552966,0,Delete Request,Non HTTP response code: java.net.URISyntaxException,"Non HTTP response message: Illegal character in authority at index 7: http://${_P(hostname, 'localhost')}/api/articles/",Thread Group 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.net.URISyntaxException]]]
+
+****** comparison: [[[204                                                ]]]
+
+/",1192,0,1,1,"http://${_P(hostname, 'localhost')}/api/articles/",0,0,0
+1649413550609,1,Add Edit Delete Articles,,"Number of samples in transaction : 6, number of failing samples : 4",Thread Group 1-1,,false,,5273,0,1,1,null,0,2359,0

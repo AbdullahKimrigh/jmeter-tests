@@ -1,0 +1,3 @@
+
+
+/Users/saurabhdhingra/Downloads/apache-jmeter-5.4.3/bin/jmeter.sh -n -q /Users/saurabhdhingra/workspace-jmeter/performance-testing-070322/config.qa.properties -t /Users/saurabhdhingra/workspace-jmeter/performance-testing-070322/ConduitAppPerftest.jmx -l /Users/saurabhdhingra/workspace-jmeter/performance-testing-070322/ConduitAppPerftestResults.jtl 
