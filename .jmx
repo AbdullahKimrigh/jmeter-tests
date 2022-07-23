@@ -60,7 +60,7 @@
           <collectionProp name="Arguments.arguments">
             <elementProp name="hostname" elementType="Argument">
               <stringProp name="Argument.name">hostname</stringProp>
-              <stringProp name="Argument.value">ec2-107-23-3-18.compute-1.amazonaws.com</stringProp>
+              <stringProp name="Argument.value">ec2-3-95-184-165.compute-1.amazonaws.com</stringProp>
               <stringProp name="Argument.metadata">=</stringProp>
             </elementProp>
             <elementProp name="portNumber" elementType="Argument">
@@ -173,7 +173,7 @@
           <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="CSV Data Set Config" enabled="true">
             <stringProp name="delimiter">,</stringProp>
             <stringProp name="fileEncoding"></stringProp>
-            <stringProp name="filename">/Users/saurabhdhingra/workspace-jmeter/performance-testing-070322/userData.csv</stringProp>
+            <stringProp name="filename">\Users\abo0o\Desktop\DevOps_World\CICD-Pipeline-Workspace\jmeter-tests\userData.csv</stringProp>
             <boolProp name="ignoreFirstLine">true</boolProp>
             <boolProp name="quotedData">false</boolProp>
             <boolProp name="recycle">true</boolProp>
@@ -191,11 +191,8 @@
                   <elementProp name="" elementType="HTTPArgument">
                     <boolProp name="HTTPArgument.always_encode">false</boolProp>
                     <stringProp name="Argument.value">{&#xd;
-    &quot;user&quot;: {&#xd;
-        &quot;email&quot;: &quot;${email}&quot;,&#xd;
-        &quot;password&quot;: &quot;${password}&quot;&#xd;
-    }&#xd;
-}</stringProp>
+                    &quot;user&quot;: {&#xd; &quot;email&quot;: &quot;${email}&quot;,&#xd;
+                    &quot;password&quot;: &quot;${password}&quot;&#xd;}&#xd;}</stringProp>
                     <stringProp name="Argument.metadata">=</stringProp>
                   </elementProp>
                 </collectionProp>
@@ -246,16 +243,9 @@
                 <collectionProp name="Arguments.arguments">
                   <elementProp name="" elementType="HTTPArgument">
                     <boolProp name="HTTPArgument.always_encode">false</boolProp>
-                    <stringProp name="Argument.value">{&#xd;
-    &quot;article&quot;: {&#xd;
-        &quot;title&quot;: &quot;test&quot;,&#xd;
-        &quot;description&quot;: &quot;test article&quot;,&#xd;
-        &quot;body&quot;: &quot;on jmeter&quot;,&#xd;
-        &quot;tagList&quot;: [&#xd;
-            &quot;Jmeter&quot;&#xd;
-        ]&#xd;
-    }&#xd;
-}</stringProp>
+                    <stringProp name="Argument.value">{&#xd;&quot;article&quot;: {&#xd;&quot;title&quot;: &quot;test&quot;,&#xd;
+                    &quot;description&quot;: &quot;test article&quot;,&#xd;&quot;body&quot;: &quot;on jmeter&quot;,&#xd;
+                    &quot;tagList&quot;: [&#xd;&quot;Jmeter&quot;&#xd;]&#xd;}&#xd;}</stringProp>
                     <stringProp name="Argument.metadata">=</stringProp>
                   </elementProp>
                 </collectionProp>
@@ -304,16 +294,9 @@
                 <collectionProp name="Arguments.arguments">
                   <elementProp name="" elementType="HTTPArgument">
                     <boolProp name="HTTPArgument.always_encode">false</boolProp>
-                    <stringProp name="Argument.value">{&#xd;
-    &quot;article&quot;: {&#xd;
-        &quot;title&quot;: &quot;test 2&quot;,&#xd;
-        &quot;description&quot;: &quot;test article 2&quot;,&#xd;
-        &quot;body&quot;: &quot;on jmeter&quot;,&#xd;
-        &quot;tagList&quot;: [&#xd;
-            &quot;Jmeter&quot;&#xd;
-        ]&#xd;
-    }&#xd;
-}</stringProp>
+                    <stringProp name="Argument.value">{&#xd;&quot;article&quot;: {&#xd;&quot;title&quot;: &quot;test 2&quot;,&#xd;
+                    &quot;description&quot;: &quot;test article 2&quot;,&#xd;&quot;body&quot;: &quot;on jmeter&quot;,&#xd;
+                    &quot;tagList&quot;: [&#xd;&quot;Jmeter&quot;&#xd;]&#xd;}&#xd;}</stringProp>
                     <stringProp name="Argument.metadata">=</stringProp>
                   </elementProp>
                 </collectionProp>
@@ -436,7 +419,7 @@
               <connectTime>true</connectTime>
             </value>
           </objProp>
-          <stringProp name="filename">/Users/saurabhdhingra/workspace-jmeter/performance-testing-070322/ConduitAppPerftestResults.jtl</stringProp>
+          <stringProp name="filename">\Users\abo0o\Desktop\DevOps_World\CICD-Pipeline-Workspace\jmeter-tests\ConduitAppPerftestResults.jtl</stringProp>
         </ResultCollector>
         <hashTree/>
         <ResultCollector guiclass="SummaryReport" testclass="ResultCollector" testname="Summary Report" enabled="true">
@@ -473,7 +456,7 @@
               <connectTime>true</connectTime>
             </value>
           </objProp>
-          <stringProp name="filename">/Users/saurabhdhingra/workspace-jmeter/performance-testing-070322/ConduitAppPerftestResults.jtl</stringProp>
+          <stringProp name="filename">\Users\abo0o\Desktop\DevOps_World\CICD-Pipeline-Workspace\jmeter-tests\ConduitAppPerftestResults.jtl</stringProp>
         </ResultCollector>
         <hashTree/>
         <ResultCollector guiclass="StatVisualizer" testclass="ResultCollector" testname="Aggregate Report" enabled="false">
@@ -510,7 +493,7 @@
               <connectTime>true</connectTime>
             </value>
           </objProp>
-          <stringProp name="filename">/Users/saurabhdhingra/workspace-jmeter/performance-testing-070322/test-results.jtl</stringProp>
+          <stringProp name="filename">\Users\abo0o\Desktop\DevOps_World\CICD-Pipeline-Workspace\jmeter-tests\test-results.jtl</stringProp>
         </ResultCollector>
         <hashTree/>
         <ResultCollector guiclass="StatGraphVisualizer" testclass="ResultCollector" testname="Aggregate Graph" enabled="false">
@@ -547,7 +530,7 @@
               <connectTime>true</connectTime>
             </value>
           </objProp>
-          <stringProp name="filename">/Users/saurabhdhingra/workspace-jmeter/performance-testing-070322/test-results.jtl</stringProp>
+          <stringProp name="filename">\Users\abo0o\Desktop\DevOps_World\CICD-Pipeline-Workspace\jmeter-tests\test-results.jtll</stringProp>
         </ResultCollector>
         <hashTree/>
         <ResultCollector guiclass="GraphVisualizer" testclass="ResultCollector" testname="Graph Results" enabled="false">
@@ -584,7 +567,7 @@
               <connectTime>true</connectTime>
             </value>
           </objProp>
-          <stringProp name="filename">/Users/saurabhdhingra/workspace-jmeter/performance-testing-070322/test-results.jtl</stringProp>
+          <stringProp name="filename">\Users\abo0o\Desktop\DevOps_World\CICD-Pipeline-Workspace\jmeter-tests\test-results.jtl</stringProp>
         </ResultCollector>
         <hashTree/>
         <kg.apc.jmeter.vizualizers.CorrectedResultCollector guiclass="kg.apc.jmeter.vizualizers.ResponseTimesOverTimeGui" testclass="kg.apc.jmeter.vizualizers.CorrectedResultCollector" testname="jp@gc - Response Times Over Time" enabled="false">
@@ -621,7 +604,7 @@
               <connectTime>true</connectTime>
             </value>
           </objProp>
-          <stringProp name="filename">/Users/saurabhdhingra/workspace-jmeter/performance-testing-070322/test-results.jtl</stringProp>
+          <stringProp name="filename">\Users\abo0o\Desktop\DevOps_World\CICD-Pipeline-Workspace\jmeter-tests\test-results.jtl</stringProp>
           <longProp name="interval_grouping">500</longProp>
           <boolProp name="graph_aggregated">false</boolProp>
           <stringProp name="include_sample_labels"></stringProp>
@@ -666,7 +649,7 @@
               <connectTime>true</connectTime>
             </value>
           </objProp>
-          <stringProp name="filename">/Users/saurabhdhingra/workspace-jmeter/performance-testing-070322/test-results.jtl</stringProp>
+          <stringProp name="filename">\Users\abo0o\Desktop\DevOps_World\CICD-Pipeline-Workspace\jmeter-tests\test-results.jtl</stringProp>
           <longProp name="interval_grouping">1000</longProp>
           <boolProp name="graph_aggregated">false</boolProp>
           <stringProp name="include_sample_labels"></stringProp>
@@ -711,7 +694,7 @@
               <connectTime>true</connectTime>
             </value>
           </objProp>
-          <stringProp name="filename">/Users/saurabhdhingra/workspace-jmeter/performance-testing-070322/test-results.jtl</stringProp>
+          <stringProp name="filename">\Users\abo0o\Desktop\DevOps_World\CICD-Pipeline-Workspace\jmeter-tests\test-results.jtl</stringProp>
           <longProp name="interval_grouping">500</longProp>
           <boolProp name="graph_aggregated">false</boolProp>
           <stringProp name="include_sample_labels"></stringProp>
@@ -756,7 +739,7 @@
               <connectTime>true</connectTime>
             </value>
           </objProp>
-          <stringProp name="filename">/Users/saurabhdhingra/workspace-jmeter/performance-testing-070322/test-results.jtl</stringProp>
+          <stringProp name="filename">\Users\abo0o\Desktop\DevOps_World\CICD-Pipeline-Workspace\jmeter-tests\test-results.jtl</stringProp>
           <longProp name="interval_grouping">1000</longProp>
           <boolProp name="graph_aggregated">false</boolProp>
           <stringProp name="include_sample_labels"></stringProp>
@@ -789,7 +772,7 @@
           <collectionProp name="Arguments.arguments">
             <elementProp name="hostname" elementType="Argument">
               <stringProp name="Argument.name">hostname</stringProp>
-              <stringProp name="Argument.value">ec2-107-23-3-18.compute-1.amazonaws.com</stringProp>
+              <stringProp name="Argument.value">ec2-3-95-184-165.compute-1.amazonaws.com</stringProp>
               <stringProp name="Argument.metadata">=</stringProp>
             </elementProp>
             <elementProp name="portNumber" elementType="Argument">
@@ -907,12 +890,8 @@
                 <collectionProp name="Arguments.arguments">
                   <elementProp name="" elementType="HTTPArgument">
                     <boolProp name="HTTPArgument.always_encode">false</boolProp>
-                    <stringProp name="Argument.value">{&#xd;
-    &quot;user&quot;: {&#xd;
-        &quot;email&quot;: &quot;saurabh@fake.com&quot;,&#xd;
-        &quot;password&quot;: &quot;admin&quot;&#xd;
-    }&#xd;
-}</stringProp>
+                    <stringProp name="Argument.value">{&#xd;&quot;user&quot;: {&#xd;&quot;email&quot;:
+                    &quot;saurabh@fake.com&quot;,&#xd;&quot;password&quot;: &quot;admin&quot;&#xd;}&#xd;}</stringProp>
                     <stringProp name="Argument.metadata">=</stringProp>
                   </elementProp>
                 </collectionProp>
@@ -963,16 +942,9 @@
                 <collectionProp name="Arguments.arguments">
                   <elementProp name="" elementType="HTTPArgument">
                     <boolProp name="HTTPArgument.always_encode">false</boolProp>
-                    <stringProp name="Argument.value">{&#xd;
-    &quot;article&quot;: {&#xd;
-        &quot;title&quot;: &quot;test&quot;,&#xd;
-        &quot;description&quot;: &quot;test article&quot;,&#xd;
-        &quot;body&quot;: &quot;on jmeter&quot;,&#xd;
-        &quot;tagList&quot;: [&#xd;
-            &quot;Jmeter&quot;&#xd;
-        ]&#xd;
-    }&#xd;
-}</stringProp>
+                    <stringProp name="Argument.value">{&#xd;&quot;article&quot;: {&#xd;&quot;title&quot;: &quot;test&quot;,&#xd;
+                    &quot;description&quot;: &quot;test article&quot;,&#xd;&quot;body&quot;: &quot;on jmeter&quot;,&#xd;
+                    &quot;tagList&quot;: [&#xd;&quot;Jmeter&quot;&#xd;]&#xd;}&#xd;}</stringProp>
                     <stringProp name="Argument.metadata">=</stringProp>
                   </elementProp>
                 </collectionProp>
@@ -1017,16 +989,9 @@
                 <collectionProp name="Arguments.arguments">
                   <elementProp name="" elementType="HTTPArgument">
                     <boolProp name="HTTPArgument.always_encode">false</boolProp>
-                    <stringProp name="Argument.value">{&#xd;
-    &quot;article&quot;: {&#xd;
-        &quot;title&quot;: &quot;test 2&quot;,&#xd;
-        &quot;description&quot;: &quot;test article 2&quot;,&#xd;
-        &quot;body&quot;: &quot;on jmeter&quot;,&#xd;
-        &quot;tagList&quot;: [&#xd;
-            &quot;Jmeter&quot;&#xd;
-        ]&#xd;
-    }&#xd;
-}</stringProp>
+                    <stringProp name="Argument.value">{&#xd;&quot;article&quot;: {&#xd;&quot;title&quot;: &quot;test 2&quot;,&#xd;
+                    &quot;description&quot;: &quot;test article 2&quot;,&#xd;&quot;body&quot;: &quot;on jmeter&quot;,&#xd;&quot;tagList&quot;: [&#xd;
+                    &quot;Jmeter&quot;&#xd;]&#xd;}&#xd;}</stringProp>
                     <stringProp name="Argument.metadata">=</stringProp>
                   </elementProp>
                 </collectionProp>
@@ -1209,7 +1174,7 @@
               <connectTime>true</connectTime>
             </value>
           </objProp>
-          <stringProp name="filename">/Users/saurabhdhingra/workspace-jmeter/performance-testing-070322/test-results.jtl</stringProp>
+          <stringProp name="filename">\Users\abo0o\Desktop\DevOps_World\CICD-Pipeline-Workspace\jmeter-tests\test-results.jtl</stringProp>
         </ResultCollector>
         <hashTree/>
         <ResultCollector guiclass="StatGraphVisualizer" testclass="ResultCollector" testname="Aggregate Graph" enabled="false">
@@ -1246,7 +1211,7 @@
               <connectTime>true</connectTime>
             </value>
           </objProp>
-          <stringProp name="filename">/Users/saurabhdhingra/workspace-jmeter/performance-testing-070322/test-results.jtl</stringProp>
+          <stringProp name="filename">\Users\abo0o\Desktop\DevOps_World\CICD-Pipeline-Workspace\jmeter-tests\test-results.jtl</stringProp>
         </ResultCollector>
         <hashTree/>
         <ResultCollector guiclass="GraphVisualizer" testclass="ResultCollector" testname="Graph Results" enabled="false">
@@ -1283,7 +1248,7 @@
               <connectTime>true</connectTime>
             </value>
           </objProp>
-          <stringProp name="filename">/Users/saurabhdhingra/workspace-jmeter/performance-testing-070322/test-results.jtl</stringProp>
+          <stringProp name="filename">\Users\abo0o\Desktop\DevOps_World\CICD-Pipeline-Workspace\jmeter-tests\test-results.jtl</stringProp>
         </ResultCollector>
         <hashTree/>
         <kg.apc.jmeter.vizualizers.CorrectedResultCollector guiclass="kg.apc.jmeter.vizualizers.ResponseTimesOverTimeGui" testclass="kg.apc.jmeter.vizualizers.CorrectedResultCollector" testname="jp@gc - Response Times Over Time" enabled="true">
@@ -1320,7 +1285,7 @@
               <connectTime>true</connectTime>
             </value>
           </objProp>
-          <stringProp name="filename">/Users/saurabhdhingra/workspace-jmeter/performance-testing-070322/test-results.jtl</stringProp>
+          <stringProp name="filename">\Users\abo0o\Desktop\DevOps_World\CICD-Pipeline-Workspace\jmeter-tests\test-results.jtl</stringProp>
           <longProp name="interval_grouping">500</longProp>
           <boolProp name="graph_aggregated">false</boolProp>
           <stringProp name="include_sample_labels"></stringProp>
@@ -1365,7 +1330,7 @@
               <connectTime>true</connectTime>
             </value>
           </objProp>
-          <stringProp name="filename">/Users/saurabhdhingra/workspace-jmeter/performance-testing-070322/test-results.jtl</stringProp>
+          <stringProp name="filename">\Users\abo0o\Desktop\DevOps_World\CICD-Pipeline-Workspace\jmeter-tests\test-results.jtl</stringProp>
           <longProp name="interval_grouping">1000</longProp>
           <boolProp name="graph_aggregated">false</boolProp>
           <stringProp name="include_sample_labels"></stringProp>
@@ -1410,7 +1375,7 @@
               <connectTime>true</connectTime>
             </value>
           </objProp>
-          <stringProp name="filename">/Users/saurabhdhingra/workspace-jmeter/performance-testing-070322/test-results.jtl</stringProp>
+          <stringProp name="filename">\Users\abo0o\Desktop\DevOps_World\CICD-Pipeline-Workspace\jmeter-tests\test-results.jtl</stringProp>
           <longProp name="interval_grouping">500</longProp>
           <boolProp name="graph_aggregated">false</boolProp>
           <stringProp name="include_sample_labels"></stringProp>
